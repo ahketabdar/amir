@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(179, 245, 245);
+    
+}
+
+
+.create,
+.edit,
+.remove{
+    margin-bottom: 0.3rem;
+    border-radius: 3rem;
+    box-shadow: 0.5rem;
+}
+
+.create:hover,
+.edit:hover,
+.remove:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+#letRemove{
+    display: none;
+}
+
+#removeData{
+    display: none;
+}
+
+#edit{
+    display: none;
+}
+
+#yes{
+    display: none;
+}
